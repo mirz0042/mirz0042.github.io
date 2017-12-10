@@ -24,7 +24,7 @@ body {
   opacity: .6;
 }
 
-/* ---------- MY CUSTOM CSS/SCSS STYLING ---------- */
+/* ------------------- MY CUSTOM CSS/SCSS STYLING ----------------- */
 
 /* Logo styling */
 .myLogo{
@@ -82,7 +82,7 @@ body {
   width: 100%;
 }
 
-.packages , .about{
+.pacSection h3{ /* this is the word "packages" */
   background-color: #3f162e;
   color: white;
   height: 150px;
@@ -91,12 +91,12 @@ body {
   width: 100%;
 }
 
-.pacTitle{
+.pacSection h5{ /* these are the titles within the "packages" section (i.e. Events Pricing) */
   margin-top: 40px;
   text-align: center;
 }
 
-.pacText{
+.pacSection p{
   display: inline-block;
   margin: 30px;
   text-align: left;
@@ -104,21 +104,31 @@ body {
 }
 
 /* About Me Styling */
-.aboutmepic{
-  margin-top: 50px;
-  width: 330px;
-}
 
 .aboutSection{
   text-align: center;
   height: 620px;
 }
 
-.aboutText{
+.aboutSection p{
   display: inline-block;
   margin: 35px;
   text-align: left;
   vertical-align: middle;
+  width: 330px;
+}
+
+.aboutSection h3{
+  background-color: #3f162e;
+  color: white;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.aboutmepic{
+  margin-top: 50px;
   width: 330px;
 }
 
@@ -131,7 +141,7 @@ body {
   .albumPics{
     width: 395px; }
 
-  .pacText , .aboutText{
+  .pacSection p , .aboutSection p{
     width: 540px;}
 
   .aboutmepic{
@@ -150,7 +160,7 @@ body {
   .jumbotron-heading{
     font-size: 30pt; }
 
-    .pacText , .aboutText{
+    .pacSection p , .aboutSection p{
       width: 720px;}
 
     .aboutmepic{
