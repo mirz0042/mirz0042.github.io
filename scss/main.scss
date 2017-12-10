@@ -83,7 +83,7 @@ body {
 }
 
 .pacSection h3{ /* this is the word "packages" */
-  background-color: #3f162e;
+  background-color: $section-break;
   color: white;
   height: 150px;
   padding: 50px;
@@ -110,6 +110,15 @@ body {
   height: 620px;
 }
 
+.aboutSection h3{ /* this is the word "about me" */
+  background-color: $section-break;
+  color: white;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+
 .aboutSection p{
   display: inline-block;
   margin: 35px;
@@ -118,8 +127,15 @@ body {
   width: 330px;
 }
 
-.aboutSection h3{
-  background-color: #3f162e;
+.aboutmepic{
+  margin-top: 50px;
+  width: 330px;
+}
+
+/* Contact Me Styling */
+
+.contactSection h3{ /* this is the word "contact me" */
+  background-color: $section-break;
   color: white;
   height: 150px;
   padding: 50px;
@@ -127,10 +143,12 @@ body {
   width: 100%;
 }
 
-.aboutmepic{
-  margin-top: 50px;
-  width: 330px;
+.contactSection p{
+  margin: 35px;
+  text-align: left;
+  width: auto;
 }
+
 
 /* Media Queries */
 

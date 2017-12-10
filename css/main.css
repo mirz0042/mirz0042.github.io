@@ -5641,13 +5641,6 @@ body {
   text-align: center;
   height: 620px; }
 
-.aboutSection p {
-  display: inline-block;
-  margin: 35px;
-  text-align: left;
-  vertical-align: middle;
-  width: 330px; }
-
 .aboutSection h3 {
   background-color: #3f162e;
   color: white;
@@ -5656,9 +5649,30 @@ body {
   text-align: center;
   width: 100%; }
 
+.aboutSection p {
+  display: inline-block;
+  margin: 35px;
+  text-align: left;
+  vertical-align: middle;
+  width: 330px; }
+
 .aboutmepic {
   margin-top: 50px;
   width: 330px; }
+
+/* Contact Me Styling */
+.contactSection h3 {
+  background-color: #3f162e;
+  color: white;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+  width: 100%; }
+
+.contactSection p {
+  margin: 35px;
+  text-align: left;
+  width: auto; }
 
 /* Media Queries */
 @media (min-width: 576px) {
