@@ -5571,3 +5571,129 @@ body {
   font-size: 1.2rem;
   letter-spacing: .12em;
   opacity: .6; }
+
+/* ---------- MY CUSTOM CSS STYLING ---------- */
+/* Logo styling */
+.myLogo {
+  font-family: Questrial; }
+
+/* Changing nav font size and centering */
+.navbar-nav {
+  font-size: 18pt;
+  margin: 0 auto;
+  padding-right: 250px; }
+
+/* Removing header gap above navigation */
+.navbar {
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -48px;
+  position: fixed;
+  right: 0;
+  width: 100%; }
+
+/* Image Stylings */
+.albumPics {
+  margin: 10px;
+  width: 320px; }
+
+.myGallery {
+  margin: auto;
+  max-width: 1800px;
+  text-align: center; }
+
+/* Footer Styling */
+.footer {
+  background-color: lightgrey;
+  font-size: 14pt;
+  margin-bottom: -100px;
+  margin-top: 30px; }
+
+/* Packages Section Styling */
+.pacSection {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%; }
+
+.packages, .about {
+  background-color: #3f162e;
+  color: white;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+  width: 100%; }
+
+.pacTitle {
+  margin-top: 40px;
+  text-align: center; }
+
+.pacText {
+  display: inline-block;
+  margin: 30px;
+  text-align: left;
+  width: 330px; }
+
+/* About Me Styling */
+.aboutmepic {
+  margin-top: 50px;
+  width: 330px; }
+
+.aboutSection {
+  text-align: center;
+  height: 620px; }
+
+.aboutText {
+  display: inline-block;
+  margin: 35px;
+  text-align: left;
+  vertical-align: middle;
+  width: 330px; }
+
+/* Media Queries */
+@media (min-width: 576px) {
+  .navbar {
+    margin-top: -55px; }
+  .albumPics {
+    width: 395px; }
+  .pacText, .aboutText {
+    width: 540px; }
+  .aboutmepic {
+    margin: 30px;
+    width: 420px; }
+  .aboutSection {
+    height: 720px; } }
+
+@media (min-width: 768px) {
+  .navbar {
+    margin-top: -70px; }
+  .jumbotron-heading {
+    font-size: 30pt; }
+  .pacText, .aboutText {
+    width: 720px; }
+  .aboutmepic {
+    margin: 30px;
+    width: 600px; }
+  .aboutSection {
+    height: 840px; } }
+
+@media (min-width: 992px) {
+  .navbar {
+    margin-top: -98px; }
+  .jumbotron-heading {
+    font-size: 40pt; }
+  .lead {
+    font-size: 21pt; }
+  .aboutSection {
+    height: 940px; } }
+
+@media (min-width: 1198px) {
+  .navbar {
+    margin-top: -98px; }
+  /** .picAndText{
+          align-items: center;
+          text-align: center;
+          vertical-align: middle;
+        } **/
+  .aboutSection {
+    height: auto; } }
