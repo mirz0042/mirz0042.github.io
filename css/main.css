@@ -5606,13 +5606,6 @@ body {
   max-width: 1800px;
   text-align: center; }
 
-/* Footer Styling */
-.footer {
-  background-color: lightgrey;
-  font-size: 14pt;
-  margin-bottom: -100px;
-  margin-top: 30px; }
-
 /* Packages Section Styling */
 .pacSection {
   margin-top: 50px;
@@ -5672,8 +5665,13 @@ body {
 
 .contactSection p {
   margin: 35px;
-  text-align: left;
+  text-align: center;
+  margin: 0 auto;
   width: auto; }
+
+/* Footer Styling */
+.footer {
+  background-color: lightgrey; }
 
 /* Media Queries */
 @media (min-width: 576px) {

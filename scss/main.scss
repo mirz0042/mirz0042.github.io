@@ -133,32 +133,31 @@ body {
 /* Contact Me Styling */
 
 .contactSection{
-  padding: 50px;
-}
 
-.contactSection h3{ /* this is the word "contact me" */
-  background-color: $section-break-bg;
-  color: $section-break-text;
-  height: 113px;
-  padding: 35px;
-  text-align: center;
-  width: 100%;
-}
+  h3{ /* this is the word "contact me" */
+    background-color: $section-break-bg;
+    color: $section-break-text;
+    height: 113px;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+  }
 
-.contactSection p{
-  margin: 35px;
-  text-align: left;
-  width: auto;
+  p{
+    margin: 35px;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+  }
+
 }
 
 /* Footer Styling */
 
 .footer{
   background-color: $footer-color;
-  font-size: 14pt;
-  margin-bottom: -100px;
-  margin-top: 30px;
 }
+
 
 
 /* Media Queries */
