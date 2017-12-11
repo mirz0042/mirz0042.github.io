@@ -5577,6 +5577,9 @@ body {
 .myLogo {
   font-family: Questrial; }
 
+.jumbotron-heading {
+  font-family: Questrial; }
+
 /* Changing nav font size and centering */
 .navbar-nav {
   font-size: 18pt;
@@ -5605,7 +5608,7 @@ body {
 
 /* Footer Styling */
 .footer {
-  background-color: lightgrey;
+  background-color: #lightgrey;
   font-size: 14pt;
   margin-bottom: -100px;
   margin-top: 30px; }
@@ -5615,46 +5618,42 @@ body {
   margin-top: 50px;
   text-align: center;
   width: 100%; }
-
-.pacSection h3 {
-  /* this is the word "packages" */
-  background-color: #3f162e;
-  color: white;
-  height: 150px;
-  padding: 50px;
-  text-align: center;
-  width: 100%; }
-
-.pacSection h5 {
-  /* these are the titles within the "packages" section (i.e. Events Pricing) */
-  margin-top: 40px;
-  text-align: center; }
-
-.pacSection p {
-  display: inline-block;
-  margin: 30px;
-  text-align: left;
-  width: 330px; }
+  .pacSection h3 {
+    /* this is the word "packages" */
+    background-color: #3f162e;
+    color: white;
+    height: 113px;
+    padding: 35px;
+    text-align: center;
+    width: 100%; }
+  .pacSection h5 {
+    /* these are the titles within the "packages" section (i.e. Events Pricing) */
+    margin-top: 40px;
+    text-align: center; }
+  .pacSection p {
+    display: inline-block;
+    margin: 30px;
+    text-align: left;
+    width: 330px; }
 
 /* About Me Styling */
 .aboutSection {
   text-align: center;
   height: 620px; }
-
-.aboutSection h3 {
-  background-color: #3f162e;
-  color: white;
-  height: 150px;
-  padding: 50px;
-  text-align: center;
-  width: 100%; }
-
-.aboutSection p {
-  display: inline-block;
-  margin: 35px;
-  text-align: left;
-  vertical-align: middle;
-  width: 330px; }
+  .aboutSection h3 {
+    /* this is the word "about me" */
+    background-color: #3f162e;
+    color: white;
+    height: 113px;
+    padding: 35px;
+    text-align: center;
+    width: 100%; }
+  .aboutSection p {
+    display: inline-block;
+    margin: 35px;
+    text-align: left;
+    vertical-align: middle;
+    width: 330px; }
 
 .aboutmepic {
   margin-top: 50px;
@@ -5662,10 +5661,11 @@ body {
 
 /* Contact Me Styling */
 .contactSection h3 {
+  /* this is the word "contact me" */
   background-color: #3f162e;
   color: white;
-  height: 150px;
-  padding: 50px;
+  height: 113px;
+  padding: 35px;
   text-align: center;
   width: 100%; }
 
@@ -5714,10 +5714,5 @@ body {
 @media (min-width: 1198px) {
   .navbar {
     margin-top: -98px; }
-  /** .picAndText{
-          align-items: center;
-          text-align: center;
-          vertical-align: middle;
-        } **/
   .aboutSection {
     height: auto; } }

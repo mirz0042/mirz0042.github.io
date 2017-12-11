@@ -28,7 +28,11 @@ body {
 
 /* Logo styling */
 .myLogo{
-  font-family: Questrial;
+  font-family: $logo-font;
+}
+
+.jumbotron-heading{
+  font-family: $logo-font;
 }
 
 /* Changing nav font size and centering */
@@ -68,7 +72,7 @@ body {
 /* Footer Styling */
 
 .footer{
-  background-color: lightgrey;
+  background-color: $footer-color;
   font-size: 14pt;
   margin-bottom: -100px;
   margin-top: 30px;
@@ -76,55 +80,57 @@ body {
 
 /* Packages Section Styling */
 
-.pacSection{
+.pacSection{ // Using Nesting Here
   margin-top: 50px;
   text-align: center;
   width: 100%;
+
+  h3{ /* this is the word "packages" */
+    background-color: $section-break;
+    color: white;
+    height: 113px;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+  }
+
+  h5{ /* these are the titles within the "packages" section (i.e. Events Pricing) */
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  p{
+    display: inline-block;
+    margin: 30px;
+    text-align: left;
+    width: 330px;
+  }
+
 }
 
-.pacSection h3{ /* this is the word "packages" */
-  background-color: $section-break;
-  color: white;
-  height: 150px;
-  padding: 50px;
-  text-align: center;
-  width: 100%;
-}
-
-.pacSection h5{ /* these are the titles within the "packages" section (i.e. Events Pricing) */
-  margin-top: 40px;
-  text-align: center;
-}
-
-.pacSection p{
-  display: inline-block;
-  margin: 30px;
-  text-align: left;
-  width: 330px;
-}
 
 /* About Me Styling */
 
-.aboutSection{
+.aboutSection{ // Using Nesting Here
   text-align: center;
   height: 620px;
-}
 
-.aboutSection h3{ /* this is the word "about me" */
-  background-color: $section-break;
-  color: white;
-  height: 150px;
-  padding: 50px;
-  text-align: center;
-  width: 100%;
-}
+  h3{ /* this is the word "about me" */
+    background-color: $section-break;
+    color: white;
+    height: 113px;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+  }
 
-.aboutSection p{
-  display: inline-block;
-  margin: 35px;
-  text-align: left;
-  vertical-align: middle;
-  width: 330px;
+  p{
+    display: inline-block;
+    margin: 35px;
+    text-align: left;
+    vertical-align: middle;
+    width: 330px;
+  }
 }
 
 .aboutmepic{
@@ -137,8 +143,8 @@ body {
 .contactSection h3{ /* this is the word "contact me" */
   background-color: $section-break;
   color: white;
-  height: 150px;
-  padding: 50px;
+  height: 113px;
+  padding: 35px;
   text-align: center;
   width: 100%;
 }
@@ -210,14 +216,8 @@ body {
   .navbar {
     margin-top: -98px; }
 
-        /** .picAndText{
-          align-items: center;
-          text-align: center;
-          vertical-align: middle;
-        } **/
-
-        .aboutSection{
-          height: auto;
+  .aboutSection{
+    height: auto;
         }
 
   }
