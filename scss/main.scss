@@ -145,9 +145,19 @@ body {
 
   p{
     margin: 35px;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
-    width: auto;
+    width: 800px;
+
+  }
+
+  table{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 70px;
   }
 
 }
@@ -156,6 +166,11 @@ body {
 
 .footer{
   background-color: $footer-color;
+  margin-bottom: -100px;
+  margin-top: 70px;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
 }
 
 
