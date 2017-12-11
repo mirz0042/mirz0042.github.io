@@ -5608,7 +5608,7 @@ body {
 
 /* Footer Styling */
 .footer {
-  background-color: #lightgrey;
+  background-color: lightgrey;
   font-size: 14pt;
   margin-bottom: -100px;
   margin-top: 30px; }
@@ -5634,7 +5634,8 @@ body {
     display: inline-block;
     margin: 30px;
     text-align: left;
-    width: 330px; }
+    width: 330px;
+    vertical-align: top; }
 
 /* About Me Styling */
 .aboutSection {
